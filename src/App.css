@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background: #111;
+  color: white;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: -4px;
+  margin: 0;
+}
+.items {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.items span {
+  padding: 20px;
+  background: white;
+  color: #111;
+}
