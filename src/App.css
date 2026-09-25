@@ -1,12 +1,42 @@
-.card {
-  height: 500px;
-  width: 400px;
-  background: #5c3da5;
+* {
+  box-sizing: border-box;
 }
- 
-.page {
+
+body {
+  margin: 0;
+  background: #0d0d0d;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.stage {
   min-height: 100vh;
+  padding: 40px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+}
+
+.number {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  opacity: 0.5;
+}
+
+.type h1 {
+  margin: 0;
+  font-size: clamp(70px, 13vw, 180px);
+  line-height: 0.8;
+  letter-spacing: -0.07em;
+}
+.letters {
+  display: flex;
+  gap: 10px;
+  margin-top: 60px;
+}
+
+.letters span {
+  font-size: 60px;
+  font-weight: 700;
 }
